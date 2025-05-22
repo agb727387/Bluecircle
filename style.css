@@ -1,3 +1,7 @@
+html {
+    margin: 0 100px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -11,6 +15,21 @@
     align-items: center;
 }
 
-html {
-    margin: 0 100px;
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.signup-info {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 18px;
 }
