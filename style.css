@@ -1,12 +1,29 @@
 html {
     margin: 0 100px;
+    font-family: Helvetica;
+    background-color: #1F2937;
+    color: white;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+
 }
 
 .links {
@@ -17,7 +34,7 @@ html {
 
 .signup {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
@@ -25,11 +42,11 @@ html {
 .signup-info {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    align-items: flex-start;
 }
 
 img {
     height: 200px;
-    width: 200px;
+    width: 800px;
     border-radius: 18px;
 }
