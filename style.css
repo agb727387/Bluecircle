@@ -63,26 +63,21 @@ img {
     align-items: center;
 }
 
-.square {
+.squares {
     display: flex;
-    border: 3px solid white;
-    border-radius: 8px;
-    height: 100px;
+    gap: 20px;
+}
+
+.square {
+    border-radius: 11px;
+    border: 5px solid white;
     width: 100px;
+    height: 100px;
 }
 
-.square-one {
-    border: 3px solid white;
-}
-
-.square-two {
-    border: 3px solid white;
-}
-
-.square-three {
-    border: 3px solid white;
-}
-
-.square-four {
-    border: 3px solid white;
+.square-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
