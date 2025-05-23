@@ -36,6 +36,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -47,6 +48,41 @@ button {
 
 img {
     height: 200px;
-    width: 800px;
+    width: 500px;
     border-radius: 18px;
+    flex: 0 0 auto;
+}
+
+.header-two {
+    text-align: center;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    display: flex;
+    border: 3px solid white;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+}
+
+.square-one {
+    border: 3px solid white;
+}
+
+.square-two {
+    border: 3px solid white;
+}
+
+.square-three {
+    border: 3px solid white;
+}
+
+.square-four {
+    border: 3px solid white;
 }
