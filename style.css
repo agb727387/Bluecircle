@@ -7,10 +7,25 @@ html {
     margin: 0;
 }
 
+.body {
+    
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.page-logo {
+    font-size: 23px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .header-two {
@@ -22,11 +37,20 @@ a {
     color: white;
 }
 
-button {
+.sign-up-button {
     border: none;
     border-radius: 7px;
     color: white;
     background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+}
+
+.sign-up-button-two {
+    border: 3px solid white;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
     height: 30px;
     width: 100px;
 }
@@ -53,13 +77,13 @@ button {
 
 img {
     height: 200px;
-    width: 500px;
+    width: 200px;
     border-radius: 18px;
     flex: 0 0 auto;
 }
 
 .section-one {
-
+    margin: 0 80px 80px 80px;
 }
 
 .section-two {
@@ -68,10 +92,30 @@ img {
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
+    width: 100%;
+    padding: 0 80px 80px 80px;
 }
 
 .section-three {
-    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgrey;
+    color: black;
+    font-size: 28px;
+    font-weight: lighter;
+    width: 100%;
+    padding: 0 80px 80px 80px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: royalblue;
+    width: 100%;
+    padding: 0 80px 80px 80px;
 }
 
 .squares {
@@ -95,5 +139,5 @@ img {
 }
 
 #speaker {
-    text-align: right;
+    margin-left: 600px;
 }
